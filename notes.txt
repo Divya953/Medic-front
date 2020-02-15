@@ -1,0 +1,15 @@
+Login/Register btn color code: #1AF812
+
+Sign up beside login btn color code: #010D16
+
+Welcome back (Every text in blue color code:)  #37A1F6
+
+bg color code: #F8FAFB
+
+use properties like :
+
+1. border-radius to provide curves to div corners
+
+2. border shadow to provide the shdow effect
+
+3.  when border-radius: 50% it will convert div to circle. useful for putting images for email and password.  

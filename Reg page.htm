@@ -1,0 +1,200 @@
+<html>
+  <head>
+      <style>
+        body{
+            margin: 0px;
+            overflow: hidden;
+            background-color: #F8FAFB;
+        }
+        .div1 {
+            overflow: hidden;
+            background-color:transparent;
+            height: 10vh;
+            width: 100%;
+        }
+        .div2 {
+            background-color: transparent;
+            height: 90vh;
+            width: 100%;
+        }
+        .div3 {
+            float: left;
+            background-color: transparent;
+            height: 100%;
+            width: 60%;
+        }
+        .div4{
+            height: 110%;
+            width: 40%;
+            float: right;
+            background-color: transparent;
+        }
+         #company-name {
+            width: 20%;
+            height: fit-content;
+            padding-top: 18px;
+            padding-left: 60px;
+            float: left;
+            color: #37A1F6;
+            font: bold 35px Arial, Helvetica, sans-serif;
+        }
+        #menu-bar {
+            width: 70%;
+            height: fit-content;
+            margin-top: 25px;
+            padding-right: 60px;
+            float: right;
+            color: grey;
+            text-align: right;
+            font: bold 20px Arial, Helvetica, sans-serif;
+        }
+        #login-form{
+            width: 60%;
+            height: 70%;
+            background-color: white;
+            margin-top: 55px;
+            margin-left: 120px;
+            border-radius: 25px;
+            border: 1px solid rgba(122, 122, 122, 0.63);
+            box-shadow: 15px 15px 10px rgba(122, 122, 122, 0.63);
+        }
+        #welcome-msg {
+            height: fit-content;
+            width: 100%;
+            color: #37A1F6;
+            margin-top: 20px;
+            padding-bottom: 40px;
+            font: bold 28px Arial, Helvetica, sans-serif;
+        }
+        #form_fill {
+          background-color: rebeccapurple;
+            width: 240px;
+            margin-top: 25px;
+            border-radius: 30px;
+            height: 35px;
+            border: 1px solid rgba(65, 65, 65, 0.69);
+            box-shadow: 5px 5px 10px rgba(65, 65, 65, 0.69);
+        }
+        #user_input {
+            height: fit-content;
+            width: inherit;
+            margin-left: 35px;
+            
+        }
+        #city_form {
+            width: 120px;
+            margin-top: 25px;
+            border-radius: 30px;
+            height: 35px;
+            border: 1px solid rgba(65, 65, 65, 0.69);
+            box-shadow: 5px 5px 10px rgba(65, 65, 65, 0.69);
+            margin-right: 125px;
+           
+        }
+        #state_form {
+            width: 120px;
+            margin-top: -37px;
+            border-radius: 30px;
+            height: 35px;
+            border: 1px solid rgba(65, 65, 65, 0.69);
+            box-shadow: 5px 5px 10px rgba(65, 65, 65, 0.69);
+            margin-left: 125px;
+           
+        }
+        #submitBtn {
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            background-color: #57B846;
+            border: none;
+            color: white;
+            font: bold 16px Arial, Helvetica, sans-serif;
+            box-shadow: 5px 5px 10px rgba(65, 65, 65, 0.69);      
+        }
+      </style>
+    </head>
+  <body>
+        <div class="div1">
+          <div id="company-name">
+              <b>Medic</b>
+          </div>
+          <div id="menu-bar">
+              <b style="margin-right: 20px"><a href="#" style="color: #37A1F6;
+              text-decoration: none">HOME</a></b>
+              <b style="margin-right: 20px"><a href="#" style="color: #37A1F6;
+              text-decoration: none">ABOUT</a></b>
+              <b style="margin-right: 20px"><a href="#" style="color: #37A1F6;
+              text-decoration: none">TEAM</a></b>
+              <b style="margin-right: 20px"><a href="#" style="color: #37A1F6;
+              text-decoration: none">SIGN UP</a></b>
+          </div>
+        </div>
+        <div class="div2">
+          <div class="div3">
+              <img  src="bgpic.png" width="100%" height="100%"  >
+            </div>
+        <div class="div4" >
+          <div id="login-form">
+              <div id="welcome-msg" style="background-color: yellowgreen;">
+                  <b style="padding-left: 50px ;">Let's Connect :)</b>
+              </div>
+              <div style="height: fit-content; background-color: red; width: 100%;">
+                  <div id="form_fill">
+                    <input type="text" id="Hospitalname" placeholder="Hospital Name" style=" width: 200px; height: 100%;
+                    border: none; background-color: yellow;
+                    color: #464646; font: bold 16px Arial, Helvetica, sans-serif;" name="Hospitalname">
+                    </div>
+                    <div id="form_fill">
+                    <input type="text" id="address" placeholder="Address" style=" width: 200px; height: 100%;
+                    border: none; background-color: transparent;float: right; margin-right: 10px;
+                    color: #464646; font: bold 16px Arial, Helvetica, sans-serif;" name="Address">
+                </div>
+                  <div id="city_form">
+                    <input type="text" id="city" placeholder="City" style=" width: 100px; height: 100%;
+                    border: none; background-color: transparent;float: rigt; margin-right: 10px;
+                    color: #464646; font: bold 16px Arial, Helvetica, sans-serif;" name="city">
+                </div>
+                <div id="state_form">
+                  <input type="text" id="state" placeholder="State" style=" width: 100px; height: 100%;
+                  border: none; background-color: transparent;float: rigt; margin-right: 10px;
+                  color: #464646; font: bold 16px Arial, Helvetica, sans-serif;" name="state">
+                </div>
+                <div id="city_form">
+                  <input type="text" id="pincode" placeholder="Pincode" style=" width: 100px; height: 100%;
+                  border: none; background-color: transparent;float: rigt; margin-right: 10px;
+                  color: #464646; font: bold 16px Arial, Helvetica, sans-serif;" name="pincode">
+              </div>
+              <div id="state_form">
+                <input type="text" id="Phone" placeholder="Phone Number" style=" width: 100px; height: 100%;
+                border: none; background-color: transparent;float: rigt; margin-right: 10px;
+                color: #464646; font: bold 14px Arial, Helvetica, sans-serif;" name="Phone">
+              </div>
+
+
+              <div id="form_fill">
+                <input type="email" id="useremail" placeholder="Email" name="userEmail" style=" width: 200px;
+                    height: 100%;border: none; background-color: transparent;float: right;
+                    margin-right: 10px;color: #464646; font: bold 16px Arial, Helvetica, sans-serif;">
+            </div>
+
+            <div id="form_fill">
+                <input type="password" id="pass" placeholder="Password" style=" width: 200px; height: 100%;
+                    border: none; background-color: transparent;float: right; margin-right: 10px;
+                    color: #464646; font: bold 16px Arial, Helvetica, sans-serif;" name="userPass">
+            </div>
+            <div style=" height: fit-content; width: 100%; margin-top: 20px;">
+              <a href="#" style="color: inherit;text-decoration: none; margin-left: 0px">
+                  <button id="submitBtn">REGISTER</button>
+              </a>
+          </div>
+          <div style=" height: fit-content; width: 100%; margin-top: 12px;">
+              <a href="#" style="color: #37A1F6;text-decoration: none; margin-left: 0px;  font: bold 20px Arial, Helvetica, sans-serif">
+                              Login
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+  </body>
+ </html>
